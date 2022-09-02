@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #7fc8f8;
+}
+
+body {
+    display: flex;
+    /* justify-content: center; */
+    height: 100vh;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.header,
+.footer {
+    height: 10%;
+    width: 100%;
+    background-color: darksalmon;
+}
+* {
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+.main-content {
+    background-color: springgreen;
+    flex: auto;
+}
+
+.my-online-users {
+    /* display: flex; */
+    /* flex-direction: column; */
+    max-height: 80%;
+    width: 250px;
+    overflow: auto;
+}
+
+.my-online-user {
+    background-color: lightgreen;
+    /* font-size: 1.5rem; */
+    /* width: fit-content; */
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    border: 0.1rem solid black;
+    /* margin: 0.5rem; */
+    /* border-radius: 0.3rem; */
+}
+
+.user-username {
+    order: 1;
+}
+
+.user-online {
+    margin: 0 1rem;
+    height: 1rem;
+    width: 1rem;
+    background-color: green;
+    border-radius: 50%;
+    order: 0;
+}

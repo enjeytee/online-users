@@ -1,0 +1,22 @@
+{
+    "id":3,
+        "name":"Neil John Trajano",
+        "username":"Enjeytee",
+        "email":"enjeytee@gmail.com",
+        "address":{
+            "street":"#70, Zone 5",
+            "suite":"Barangay Juliana",
+            "city":"San Fernando, Pampanga",
+            "zipcode":"2000",
+            "geo":{
+                "lat":"-68.6102",
+                "lng":"-47.0653"}
+        },
+        "phone":"+63-960-523-3125",
+        "website":"enjeytee.info",
+        "company":{
+            "name":"Trajano Laundry",
+            "catchPhrase":"We clean everything!",
+            "bs":"We wash your money for you."
+        }
+}
